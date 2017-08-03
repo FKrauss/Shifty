@@ -77,7 +77,7 @@ jQuery( document ).ready(function( $ ) {
 
 
     var spinner = '<div class="spinner"><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div>';
-    var deposit_type = '';
+    var deposit_type = 'DASH';
     var altcoin_deposit_limit = ''; // defined here (globally) because it is used in a bunch of places
     function getCoins(callback) {
         $.getJSON( SITE + "/getcoins", function( data ) {
